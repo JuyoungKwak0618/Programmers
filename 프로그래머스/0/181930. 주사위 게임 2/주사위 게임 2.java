@@ -6,7 +6,7 @@ class Solution {
                 (a * a * a + b * b * b + c * c * c);
         } else if(a != b & b != c & a != c) {
             answer = a + b + c;
-        } else{
+        } else {
             answer = (a + b + c) * (a * a + b * b + c * c);
         }
         return answer;
